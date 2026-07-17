@@ -10,7 +10,7 @@ function Login(){
 
  async function onsubmit(event){
     event.preventDefault()
-    let res = await fetch(`https://todos-wibl.onrender.com//user?email=${email}`)
+    let res = await fetch(`https://todos-wibl.onrender.com/user?email=${email}`)
     let jsondata = await res.json();
     // console.log(jsondata);
     
