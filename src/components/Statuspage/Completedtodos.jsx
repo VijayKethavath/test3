@@ -12,7 +12,7 @@ function Completedtodos(){
   async function getData(){
     try {
     let userId = localStorage.getItem("user_id")
-    let res = await fetch(`https://todos-wibl.onrender.com//todos?uersId=${userId}&isCompleted=true`)
+    let res = await fetch(`https://todos-wibl.onrender.com/gittodos?uersId=${userId}&isCompleted=true`)
     let jsondata = await res.json()
     setdata(jsondata)
   } catch (error) {
