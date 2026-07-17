@@ -13,7 +13,7 @@ if(localStorage.getItem("user_id")==null){
     try {
     let userId = localStorage.getItem("user_id")
     console.log(userId);
-    let res = await fetch(`http://localhost:5000/todos?uersId=${userId}&isCompleted=false`)
+    let res = await fetch(`https://todos-wibl.onrender.com/todos?uersId=${userId}&isCompleted=false`)
     let jsondata = await res.json()
     setdata(jsondata)
   } catch (error) {

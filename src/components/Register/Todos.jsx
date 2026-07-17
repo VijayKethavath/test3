@@ -21,7 +21,7 @@ function Todos(){
         uersId:localStorage.getItem("user_id")
       }
 
-      let res = await fetch("http://localhost:5000/todos",{
+      let res = await fetch("https://todos-wibl.onrender.com/todos",{
         method:"POST",
         headers:{
           "Content-Tpye":"application/json"

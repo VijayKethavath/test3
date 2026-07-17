@@ -14,7 +14,7 @@ function Register() {
       const newuser={Username,email,Password}
       console.log(newuser);
 
-      let data=await fetch(`http://localhost:5000/user?email=${email}`);
+      let data=await fetch(`https://todos-wibl.onrender.com/user?email=${email}`);
       let jsondata = await data.json();
       console.log(jsondata);
       
@@ -26,7 +26,7 @@ function Register() {
       seterr(false)
 
 
-      let res = await fetch("http://localhost:5000/user",{
+      let res = await fetch("https://todos-wibl.onrender.com/user",{
         method:"POST",
         headers:{
           "content-Type":"application/json"

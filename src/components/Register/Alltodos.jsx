@@ -8,7 +8,7 @@ function Alltodos() {
       try {
         let userId = localStorage.getItem("user_id");
         // console.log(userId);
-        let res = await fetch(`http://localhost:5000/todos?uersId=${userId}`);
+        let res = await fetch(`https://todos-wibl.onrender.com/todos?uersId=${userId}`);
         let jsonData = await res.json();
         setdata(jsonData);
         console.log(jsonData);
@@ -20,7 +20,7 @@ function Alltodos() {
   }, [data]);
 
   async function onDlt(id) {
-    let del = await fetch(`http://localhost:5000/todos/${id}`, {
+    let del = await fetch(`https://todos-wibl.onrender.com/todos/${id}`, {
       method: "DELETE", });
     if (del.ok) {
       alert("Deleted");
@@ -31,7 +31,7 @@ function Alltodos() {
 
   async function onComp(item) {
     try {
-      let res = await fetch(`http://localhost:5000/todos/${item.id}`, {
+      let res = await fetch(`https://todos-wibl.onrender.com/todos/${item.id}`, {
         method: "PATCH",
         headers: {
           "Content-Type": "application/json",
