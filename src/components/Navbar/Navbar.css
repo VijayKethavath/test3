@@ -1,0 +1,38 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.main{
+  background-color: rgb(15, 68, 228);
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  justify-content: space-between;
+  font-style: oblique;
+}
+h1{
+  margin: 10px;
+  
+}
+i{
+  cursor: pointer;
+  color: white;
+  font-size: larger;
+}
+.sub{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* justify-content: space-between; */
+  gap: 15px;
+}
+button{
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: red;
+  color: rgb(20, 20, 21);
+  cursor: pointer;
+  font-style: italic;
+}

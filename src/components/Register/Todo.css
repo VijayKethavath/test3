@@ -1,0 +1,11 @@
+.todo{
+  border: 2px solid;
+  width: 100vw;
+  height: 100vh;
+}
+.todobox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

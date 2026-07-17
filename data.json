@@ -1,0 +1,93 @@
+{
+  "user": [
+    {
+      "id": "3f1a",
+      "Username": "dfghjk",
+      "email": "kethavathvijay2210@gmail.com",
+      "Password": "123456"
+    },
+    {
+      "id": "bbaa",
+      "Username": "vijay",
+      "email": "vijay@gmail.com",
+      "Password": "123"
+    },
+    {
+      "id": "1818",
+      "Username": "Akki",
+      "email": "akki@gmail.com",
+      "Password": "123"
+    },
+    {
+      "id": "398d",
+      "Username": "vijju",
+      "email": "vijju@gmail.com",
+      "Password": "123456"
+    },
+    {
+      "id": "8963",
+      "Username": "a",
+      "email": "a@gmail.com",
+      "Password": "a"
+    }
+  ],
+  "todos": [
+    {
+      "id": "f302",
+      "todo": "python",
+      "date": "5/31/2026, 11:23:33 PM",
+      "isCompleted": false,
+      "uersId": "bbaa"
+    },
+    {
+      "id": "bffa",
+      "todo": "Learn Java",
+      "date": "6/4/2026, 11:31:00 AM",
+      "isCompleted": false,
+      "uersId": "3f1a"
+    },
+    {
+      "id": "faf3",
+      "todo": "Do class work",
+      "date": "6/4/2026, 11:31:38 AM",
+      "isCompleted": false,
+      "uersId": "3f1a"
+    },
+    {
+      "id": "a4e2",
+      "todo": "Learn Java",
+      "date": "6/4/2026, 11:50:20 PM",
+      "isCompleted": false,
+      "uersId": "1818"
+    },
+    {
+      "id": "0ec8",
+      "todo": "Learn Java",
+      "date": "6/4/2026, 11:50:36 PM",
+      "isCompleted": false,
+      "uersId": "1818"
+    },
+    {
+      "id": "06e4",
+      "todo": "work",
+      "date": "6/4/2026, 11:57:29 PM",
+      "isCompleted": false,
+      "uersId": "3f1a"
+    },
+    {
+      "id": "69c2",
+      "todo": "hello",
+      "date": "6/5/2026, 12:00:19 AM",
+      "isCompleted": true,
+      "uersId": "398d"
+    },
+    {
+      "id": "3354",
+      "todo": "css",
+      "date": "6/5/2026, 12:00:30 AM",
+      "isCompleted": false,
+      "uersId": "398d"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
